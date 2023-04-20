@@ -1,9 +1,13 @@
 import React from "react";
+import Navbar from "../components/Navbar";
 
 function App() {
   return (
-    <div className="bg-slate-400">
-      <h1 className="">Main App</h1>
+    // main wrapper
+    <div className="">
+      {/* navbar */}
+      <Navbar/>
+      {/* <h1 className="">Main App</h1> */}
     </div>
   );
 }
