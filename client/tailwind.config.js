@@ -7,6 +7,9 @@ module.exports = {
         navbg : '#FFB8C6',
         secondarybg : '#FF5678',
         primarytwo : '#FFE2E8',
+        textsec : '#FF5a5c',
+        lightblack : '#383838',
+        linkcolor : '#288CE9',
       }
     },
   },
