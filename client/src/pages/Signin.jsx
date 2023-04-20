@@ -1,8 +1,13 @@
 import React from 'react'
+import SigninForm from '../components/SigninForm'
+import Navbar from '../components/Navbar'
 
 const Signin = () => {
   return (
-    <div>Signin</div>
+    <div className='h-screen bg-slate-800 '>
+      <Navbar/>
+      <SigninForm/>
+    </div>
   )
 }
 
