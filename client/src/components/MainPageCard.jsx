@@ -2,6 +2,7 @@ import React from 'react'
 import RahiLogo from '../assets/RahiLogo.png'
 import Donate from '../assets/Donate.png'
 import Volunteer from '../assets/Volunteer.png'
+import SaveRed from '../assets/SaveRed.png'
 const MainPageCard = () => {
   return (
     <div class="max-w-2xl mx-auto bg-[#D9D9D9] shadow-lg rounded-lg">
@@ -25,14 +26,17 @@ const MainPageCard = () => {
               </div>
             </div>
           </div>
-          <div className='links'>
-            <a class="flex-shrink-0 flex items-center justify-center w-24 h-fit ml-2 mt-1 mb-3" href="/donate">
+          <div className='links justify-start pl-2'>
+            <a class="flex-shrink-0 flex items-center justify-center w-24 h-fit mr-4 mt-1 mb-3" href="/donate">
               <img src={Donate} alt="" />
             </a>
-            <a class="flex-shrink-0 flex items-center justify-center w-24 h-fit ml-2" href="/donate">
+            <a class="flex-shrink-0 flex items-center justify-center w-24 h-fit mr-4  " href="/donate">
               <img src={Volunteer} alt="" />
             </a>
           </div>
+        </div>
+        <div className='p-1 forsave relative left-[630px] bottom-[90px] z-10 max-w-fit'>
+          <img src={SaveRed} className='h-[16px]' alt="" />
         </div>
       </div>
     </div>
