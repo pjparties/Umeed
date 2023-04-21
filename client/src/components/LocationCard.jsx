@@ -7,9 +7,9 @@ import pvr from "../assets/pvr.png"
 import verified from "../assets/verified.png"
 
 const LocationCard = () => {
-    const [qty1, setQty1] = useState(0);
-    const [qty2, setQty2] = useState(0);
-    const [qty3, setQty3] = useState(0);
+    // const [qty1, setQty1] = useState(0);
+    // const [qty2, setQty2] = useState(0);
+    // const [qty3, setQty3] = useState(0);
     return (
         <div className='Container flex flex-col h-screen items-end'>
             <div className=" h-[627px] w-[400px] donation bg-background border-gray-200 border-solid border-2 rounded-2xl my-auto flex mr-32 drop-shadow-2xl flex-col">
