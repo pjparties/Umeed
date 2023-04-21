@@ -7,11 +7,12 @@
 - [ ] Add a `README.md` file
 
 ### Lakshay
-- [ ] create falana.html
+- [ ] edit the format of donate
+- [ ] make the fields as input instead of text
 
 ### Anchit
-- [ ] create falana.html
+- [ ] design changes to donate
 - [ ] 
 ### Parth
-- [ ] create falana.html
+- [ ] shadowrapper container
 - [ ] 
