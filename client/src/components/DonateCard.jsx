@@ -12,10 +12,21 @@ const DonateCard = () => {
         <Navbar />
       </div>
       <div className="donation bg-background border-black border-solid border-2 rounded-2xl w-4/12 h-4/5 my-auto flex mr-32 drop-shadow-2xl flex-col">
-        <span className="flex flex-row justify-around">
-          <input type="text" className=" search w-7/12 py-2 pl-10 pr-4 text-gray-700 bg-white border rounded-lg focus:border-blue-400 dark:focus:border-blue-300 focus:outline-none focus:ring focus:ring-opacity-40 focus:ring-blue-300 mt-6" placeholder="Search" />
-          <img src={Plus} alt="add" className="aspect-square h-4/6 mt-6 mr-4 hover:cursor-pointer" />
+        <span className="flex flex-row">
+          <div className="search my-auto ml-[2rem]">
+            <form class="flex items-center mx-5 my-5 w-full">
+              <label for="simple-search" class="sr-only">Search</label>
+              <div class=" relative w-full rounded-lg">
+                <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+                  <svg aria-hidden="true" class="w-5 h-5 text-gray-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"></path></svg>
+                </div>
+                <input type="text" id="simple-search" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5" placeholder="Search" required />
+              </div>
+            </form>
+          </div>
+          <img src={Plus} alt="add" className="aspect-square h-4/6 my-auto ml-[3rem] hover:cursor-pointer" />
         </span>
+
         <div className="max-w-2xl px-8 py-2 bg-white rounded-3xl shadow-md my-3 mx-6 ">
           <div className="mt-2">
             <div className="flex flex-row justify-between">
