@@ -11,6 +11,7 @@ function App() {
       {/* navbar */}
       <Navbar/>
       <MainPageCard/>
+      <MainPageCard/>
       {/* <LocationCard/> */}
       {/* <h1 className="">Main App</h1> */}
     </div>

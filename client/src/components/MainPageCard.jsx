@@ -5,7 +5,7 @@ import Volunteer from '../assets/Volunteer.png'
 import SaveRed from '../assets/SaveRed.png'
 const MainPageCard = () => {
   return (
-    <div class="max-w-2xl mx-auto bg-[#D9D9D9] shadow-lg rounded-lg">
+    <div class="max-w-2xl my-5 mx-auto bg-[#D9D9D9] shadow-sm rounded-lg">
       <div class="px-4 py-5">
         <div class="flex items-start">
           {/* <!-- Icon --> */}
