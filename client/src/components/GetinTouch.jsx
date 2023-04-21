@@ -24,8 +24,7 @@ export const GetinTouch = () => {
             </form>
         </section>
     )
-}
-
+} 
 
 
 
