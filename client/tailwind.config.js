@@ -15,6 +15,7 @@ module.exports = {
         getinTouch3 : '#DD5471',
         background : '#FFEFF2',
         donate2:'#E8E8E8',
+        search:'#F6F6F6',
       }
     },
   },
