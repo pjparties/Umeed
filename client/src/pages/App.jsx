@@ -1,7 +1,8 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-import { GetinTouch } from "../components/GetinTouch";
-import LocationCard from "../components/LocationCard";
+// import { GetinTouch } from "../components/GetinTouch";
+// import LocationCard from "../components/LocationCard";
+import MainPageCard from "../components/MainPageCard";
 
 function App() {
   return (
@@ -9,7 +10,9 @@ function App() {
     <div className="">
       {/* navbar */}
       <Navbar/>
-      <LocationCard/>
+      <MainPageCard/>
+      <MainPageCard/>
+      {/* <LocationCard/> */}
       {/* <h1 className="">Main App</h1> */}
     </div>
   );

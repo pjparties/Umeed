@@ -1,6 +1,6 @@
 # Umeed
 ## TODO
-- [ ] add shadow behind components, make component-wrapper to shadow div
+  - [x] add shadow behind components, make component-wrapper to shadow div
 ## Important
 
 ### Aditya
