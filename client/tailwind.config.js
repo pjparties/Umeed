@@ -20,6 +20,7 @@ module.exports = {
         donate2:'#E8E8E8',
         unchecked:'#FFE6EB',
         checked: '#FFf8f8',
+        search:'#F6F6F6',
       }
     },
   },

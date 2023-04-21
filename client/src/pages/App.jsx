@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import { GetinTouch } from "../components/GetinTouch";
+import LocationCard from "../components/LocationCard";
 
 function App() {
   return (
@@ -8,7 +9,7 @@ function App() {
     <div className="">
       {/* navbar */}
       <Navbar/>
-      <GetinTouch/>
+      <LocationCard/>
       {/* <h1 className="">Main App</h1> */}
     </div>
   );
