@@ -7,6 +7,7 @@ import './index.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Donate from './pages/Donate';
 import Location from './pages/Location';
+import Profile from './pages/Profile';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -18,6 +19,8 @@ root.render(
         <Route path='/signUp' element={<Signup/>} />
         <Route path='/donate' element={<Donate/>} />
         <Route path='/location' element={<Location/>} />
+        <Route path='/userProfile' element={<Profile/>} />
+
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

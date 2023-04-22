@@ -25,7 +25,7 @@ export const GetinTouch = () => {
         </section>
     )
 } 
-
+export default GetinTouch
 
 
 
