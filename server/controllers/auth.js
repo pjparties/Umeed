@@ -9,7 +9,6 @@ export const register = async (req, res) => {
             name,
             email,
             password,
-            picturePath,
             location
         }=req.body;
 
@@ -21,7 +20,6 @@ export const register = async (req, res) => {
             email,
             password: passwordHash,
             location,
-            picturePath
         });
 
         const savedUser=await newUser.save();
