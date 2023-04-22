@@ -5,7 +5,7 @@ import Volunteer from '../assets/Volunteer.png'
 import SaveRed from '../assets/SaveRed.png'
 const MainPageCard = () => {
   return (
-    <div class="max-w-2xl my-5 mx-auto bg-[#D9D9D9] shadow-sm rounded-lg">
+    <div class="w-[80vw] scale-110 my-9 mx-auto bg-[#D9D9D9] shadow-sm rounded-lg">
       <div class="px-4 py-5">
         <div class="flex items-start">
           {/* <!-- Icon --> */}
@@ -35,7 +35,7 @@ const MainPageCard = () => {
             </a>
           </div>
         </div>
-        <div className='p-1 forsave relative left-[630px] bottom-[90px] z-10 max-w-fit'>
+        <div className='p-1 forsave relative left-[69rem] bottom-[5.8rem] z-10 max-w-fit'>
           <img src={SaveRed} className='h-[16px]' alt="" />
         </div>
       </div>

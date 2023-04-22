@@ -14,6 +14,8 @@ function App() {
       <Carousel/>
       <MainPageCard/>
       <MainPageCard/>
+      <MainPageCard/>
+      <MainPageCard/>
       {/* <LocationCard/> */}
       {/* <h1 className="">Main App</h1> */}
     </div>
