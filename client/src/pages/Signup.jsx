@@ -1,12 +1,14 @@
 import React from 'react'
-import SigninForm from '../components/SigninForm'
+import SignupForm from '../components/SignupForm'
 import Navbar from '../components/Navbar'
 
 const Signup = () => {
   return (
-    <div className='h-screen bg-slate-800'>
-      <Navbar/>
-      <SigninForm/>
+    <div className='h-screen bg-slate-800 flex flex-col items-end '>
+      <div className="w-full">
+        <Navbar/>
+      </div>
+      <SignupForm/>
     </div>
   )
 }
