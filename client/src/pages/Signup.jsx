@@ -4,7 +4,7 @@ import Navbar from '../components/Navbar'
 
 const Signup = () => {
   return (
-    <div className='h-screen bg-slate-800 flex flex-col items-end '>
+    <div className='h-screen bg-slate-800 flex flex-col items-center '>
       <div className="w-full">
         <Navbar/>
       </div>

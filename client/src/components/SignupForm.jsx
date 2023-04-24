@@ -37,8 +37,8 @@ const SignupForm = () => {
     }
 
     return (
-        <div className='bg-white border-black border-solid border-2 rounded-2xl w-4/12 h-[600px] my-auto mr-32 drop-shadow-2xl flex
-        flex-col min-w-[334px] max-w-[432px]  min-h-[620px] '>
+        <div className='bg-white border-black border-solid border-2 rounded-2xl w-4/12 h-[600px] my-auto drop-shadow-2xl flex
+        flex-col min-w-[334px] max-w-[432px]  min-h-[620px] justify-center items-center'>
             {console.log("User", user)}
             <div className='title'>
                 <h1 className='text-4xl text-lightblack text-center mt-6 pb-1'>Sign Up</h1>
