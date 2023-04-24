@@ -3,7 +3,7 @@ import Dropdown from './Dropdown'
 
 export const GetinTouch = () => {
     return (
-        <section class=" my-10 max-w-4xl p-6 mx-auto bg-getinTouch rounded-md shadow-md w-[420px] h-[514px]">
+        <section class="  max-w-4xl p-6 mx-auto bg-getinTouch rounded-md shadow-md w-[420px] h-[514px] ">
             <h2 class="  text-[56.75px] font-thin text-black capitalize">Get in <span className='text-[56.75px] font-thin text-getinTouch2'>Touch</span></h2>
             <form>
                 <div class="grid grid-cols-1 gap-6 mt-4">

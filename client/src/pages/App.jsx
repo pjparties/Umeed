@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 // import { GetinTouch } from "../components/GetinTouch";
 // import LocationCard from "../components/LocationCard";
 import MainPageCard from "../components/MainPageCard";
+import LocationCard from "../components/LocationCard";
 import Carousel from "../components/Carousel";
 import { styles } from "../styles";
 
@@ -17,6 +18,7 @@ function App() {
       <MainPageCard/>
       <MainPageCard/>
       <MainPageCard/>
+      <LocationCard/>
       {/* <LocationCard/> */}
       {/* <h1 className="">Main App</h1> */}
     </div>
