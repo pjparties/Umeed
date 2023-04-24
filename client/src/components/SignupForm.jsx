@@ -38,7 +38,7 @@ const SignupForm = () => {
 
     return (
         <div className='bg-white border-black border-solid border-2 rounded-2xl w-4/12 h-4/5 my-auto mr-32 drop-shadow-2xl flex
-        flex-col  '>
+        flex-col min-w-[334px] max-w-[432px]  min-h-[656px] '>
             {console.log("User", user)}
             <div className='title'>
                 <h1 className='text-4xl text-lightblack text-center mt-6 pb-1'>Sign Up</h1>
