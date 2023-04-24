@@ -14,8 +14,8 @@ const Profile = () => {
 
                 <div className="ml-10 w-[70vw] h-[70vw] ">
                     {/* <p className="mx-10 text-center font-">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, officiis. Sint sapiente alias perspiciatis quam dolorem, incidunt nemo obcaecati possimus numquam maxime praesentium iste facilis repellat? Omnis modi quae facere!</p> */}
-                    <Grid/>
-                    </div>
+                    <Grid />
+                </div>
                 <div className="mr-10 -mt-11">
 
                     <GetinTouch />
@@ -23,7 +23,6 @@ const Profile = () => {
             </div>
 
             {/* <Grid/> */}
-
         </div>
     )
 }

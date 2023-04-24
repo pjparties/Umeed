@@ -33,7 +33,7 @@ const MainPageCard = () => {
             {/* <!-- Card header --> */}
             <div class="w-full sm:flex justify-between items-center">
               {/* <!-- Title --> */}
-              <h2 class="text-xl leading-snug text-darkblue truncate mb-1 sm:mb-0">`${posts.name}`</h2>
+              <h2 class="text-xl leading-snug text-darkblue truncate mb-1 sm:mb-0">Raahi Foundation</h2>
             </div>
             {/* <!-- Card body --> */}
             <div class="flex items-end justify-between whitespace-normal">

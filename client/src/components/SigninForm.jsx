@@ -24,16 +24,17 @@ const SigninForm = () => {
 
   const login = () => {
     axios.post("http://localhost:3001/auth/login", user)
-        .then(res => {
-            alert(res.data.message)
-            dispatch(
-              setLogin({
-                user: res.user,
-                token: res.token,
-              })
-            );
-            navigate('/')
-        })
+      .then(res => {
+        console.log(user)
+        alert('Welcome back')
+        dispatch(
+          setLogin({
+            user: res.user,
+            token: res.token,
+          })
+        );
+        navigate('/')
+      })
   }
   return (
 
@@ -55,7 +56,7 @@ const SigninForm = () => {
         <Link className='pt-2 font-normal text-xs  w-fit mx-0.5 my-2'>Forgot Password?</Link>
       </div>
       <div className='login-button w-fit mx-auto my-3'>
-        <button className='bg-secondarybg text-white font-bold py-2 px-[75px] rounded-2xl' onClick={()=>{login();}}><Link className='font-thin text-sm justify-center'>Login</Link></button>
+        <button className='bg-secondarybg text-white font-bold py-2 px-[75px] rounded-2xl' onClick={() => { login(); }}><Link className='font-thin text-sm justify-center'>Login</Link></button>
       </div>
       <p className='text-center text-xs pt-2'>Or</p>
       <div className="google-apple flex flex-row gap-10 justify-center items-end my-6">

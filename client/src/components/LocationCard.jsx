@@ -33,15 +33,17 @@ const LocationCard = () => {
                                 </div>
                                 <div className='flex flex-row'>
                                     <img className='-ml-10' src={locationoutline} alt="" /> <p className=' font-thin'>New Delhi</p>
+     
                                 </div>
                             </div>
+                            <p class="mt-2 text-black-thin">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis maxime placeat delectus vitae sint expedita laborum reiciendis minima provident facilis!</p>
+                            <img className='mt-5' src={pvr} alt="" />
                         </div>
                         <p class="mt-2 text-black-thin">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis maxime placeat delectus vitae sint expedita laborum reiciendis minima provident facilis!</p>
                         <img className='mt-5 w-[50rem]' src={pvr} alt="" />
                     </div>
                 </div>
             </div>
-        </div>
     )
 }
 
