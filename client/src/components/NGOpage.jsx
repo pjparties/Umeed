@@ -24,9 +24,7 @@ const NGOpage = () => {
                     {/* <!-- Card body --> */}
                     <div class="flex items-end justify-start whitespace-normal">
                         {/* <!-- Paragraph --> */}
-                        <div class="max-w-md text-xs mt-10">
-                            <p class="mb-2">Lorem ipsum dolor sit amet, consecte adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore.</p>
-                        </div>
+                        
                     </div>
                     </div>
 
