@@ -11,7 +11,7 @@ const DonateCard = () => {
       <div className='w-full'>
         <Navbar />
       </div>
-      <div className="donation bg-background border-black border-solid border-2 rounded-2xl min-w-[334px] max-w-[30vw] h-4/5 my-auto flex mr-32 drop-shadow-2xl flex-col">
+      <div className="donation bg-background border-black border-solid border-2 rounded-2xl min-w-[334px] max-w-[432px]  min-h-[656px] my-auto flex mr-32 drop-shadow-2xl flex-col">
         <span className="flex flex-row">
           <div className="search my-auto w-[35vw] ml-[2rem]">
             <form class="flex items-center mx-5 my-5 w-full">
