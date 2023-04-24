@@ -5,7 +5,7 @@ import LocationCard from '../components/LocationCard'
 import {styles} from '../styles.js'
 const Location = () => {
   return (
-    <div className='h-screen'>
+    <div className=''>
       <Navbar />
       {/* <CallChatCard/>  */}
       <div className={`${styles.bgImage}`} >
