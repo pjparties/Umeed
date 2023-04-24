@@ -10,7 +10,8 @@ import { styles } from "../styles";
 function App() {
   return (
     // main wrapper
-    <div className={`${styles.bgImage}`}>
+    <div>
+    {/* <div className={`${styles.bgImage}`}> */}
       {/* navbar */}
       <Navbar/>
       <Carousel/>
@@ -18,7 +19,6 @@ function App() {
       <MainPageCard/>
       <MainPageCard/>
       <MainPageCard/>
-      <LocationCard/>
       {/* <LocationCard/> */}
       {/* <h1 className="">Main App</h1> */}
     </div>
