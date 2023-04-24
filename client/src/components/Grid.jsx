@@ -1,4 +1,10 @@
 import React from 'react'
+import profile1 from '../assets/profile1.jpg'
+import profile2 from '../assets/profile2.jpg'
+import profile3 from '../assets/profile3.jpg'
+import profile4 from '../assets/profile4.jpg'
+import profile5 from '../assets/profile5.jpg'
+import profile6 from '../assets/profile6.jpg'
 
 const Grid = () => {
   return (
@@ -11,7 +17,7 @@ const Grid = () => {
               <img
                 alt="gallery"
                 class="block h-full w-full rounded-lg object-cover object-center"
-                src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp" />
+                src={profile1} />
             </div>
           </div>
           <div class="flex w-1/3 flex-wrap">
@@ -19,7 +25,7 @@ const Grid = () => {
               <img
                 alt="gallery"
                 class="block h-full w-full rounded-lg object-cover object-center"
-                src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(74).webp" />
+                src={profile2}/>
             </div>
           </div>
           <div class="flex w-1/3 flex-wrap">
@@ -27,7 +33,7 @@ const Grid = () => {
               <img
                 alt="gallery"
                 class="block h-full w-full rounded-lg object-cover object-center"
-                src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(75).webp" />
+                src={profile3} />
             </div>
           </div>
           <div class="flex w-1/3 flex-wrap">
@@ -35,7 +41,7 @@ const Grid = () => {
               <img
                 alt="gallery"
                 class="block h-full w-full rounded-lg object-cover object-center"
-                src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(70).webp" />
+                src={profile4} />
             </div>
           </div>
           <div class="flex w-1/3 flex-wrap">
@@ -43,7 +49,7 @@ const Grid = () => {
               <img
                 alt="gallery"
                 class="block h-full w-full rounded-lg object-cover object-center"
-                src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(76).webp" />
+                src={profile5} />
             </div>
           </div>
           <div class="flex w-1/3 flex-wrap">
@@ -51,7 +57,7 @@ const Grid = () => {
               <img
                 alt="gallery"
                 class="block h-full w-full rounded-lg object-cover object-center"
-                src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(72).webp" />
+                src={profile6} />
             </div>
           </div>
         </div>

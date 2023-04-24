@@ -27,7 +27,7 @@ const SignupForm = () => {
         if (name && email && password && location) {
             axios.post("http://localhost:3001/auth/register", user)
                 .then(res => {
-                    alert(res.data.message)
+                    alert('Welcome')
                     navigate('/signIn')
                 })
         } else {
@@ -37,8 +37,8 @@ const SignupForm = () => {
     }
 
     return (
-        <div className='bg-white border-black border-solid border-2 rounded-2xl w-4/12 h-4/5 my-auto mr-32 drop-shadow-2xl flex
-        flex-col  '>
+        <div className='bg-white border-black border-solid border-2 rounded-2xl w-4/12 h-[600px] my-auto drop-shadow-2xl flex
+        flex-col min-w-[334px] max-w-[432px]  min-h-[620px] justify-center items-center'>
             {console.log("User", user)}
             <div className='title'>
                 <h1 className='text-4xl text-lightblack text-center mt-6 pb-1'>Sign Up</h1>
@@ -65,7 +65,7 @@ const SignupForm = () => {
             </div>
             <p className='text-center text-xs pt-2'>Or</p>
             <div className="google-apple flex flex-row gap-10 justify-center items-end">
-                <div className="google w-fit h-fit pt-3">
+                <div className="google w-fit h-fit pt-3 ">
                     <Link>
                         <img className='h-7' src={Google} alt="" />
                     </Link>
