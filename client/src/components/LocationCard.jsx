@@ -12,7 +12,7 @@ const LocationCard = () => {
     // const [qty3, setQty3] = useState(0);
     return (
         <div className='Container flex flex-col h-screen items-end '>
-            <div className=" h-[500px] w-[500px] donation bg-background border-gray-200 border-solid border-2 rounded-2xl my-auto flex mr-32 drop-shadow-2xl flex-col min-w-[334px] max-w-[432px]  min-h-[656px] ">
+            <div className=" h-[500px] w-[500px] donation bg-background border-gray-200 border-solid border-2 rounded-2xl my-5 flex mr-32 drop-shadow-2xl flex-col min-w-[334px] max-w-[432px]  min-h-[600px] max-h-[656px]">
                 <form class="flex items-center mx-5 my-5">
                     <label for="simple-search" class="sr-only">Search</label>
                     <div class=" relative w-full rounded-lg ">

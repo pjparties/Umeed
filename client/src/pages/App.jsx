@@ -10,7 +10,7 @@ import { styles } from "../styles";
 function App() {
   return (
     // main wrapper
-    <div className={`${styles.bgImage}`}>
+    <div className={''}>
       {/* navbar */}
       <Navbar/>
       <Carousel/>
