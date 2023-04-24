@@ -26,7 +26,7 @@ const SigninForm = () => {
     axios.post("http://localhost:3001/auth/login", user)
       .then(res => {
         console.log(user)
-        alert('Welcom back')
+        alert('Welcome back')
         dispatch(
           setLogin({
             user: res.user,
