@@ -31,7 +31,7 @@ const Carousel = () => {
         <div className="w-full">
             <AliceCarousel
                 items={items.map((item) => (
-                    <div key={item.id}>
+                    <div key={item.id} className='dropShadow-2xl '>
                         <img className=" w-[80vw] h-[60vh] object-cover mx-auto rounded-2xl mt-6" src={item.imageUrl} alt={item.title} />
                     </div>
                 ))}
