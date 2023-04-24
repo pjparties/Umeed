@@ -4,7 +4,7 @@ import DonateCard from '../components/DonateCard'
 const Donate = () => {
   return (
     <div>
-      <DonateCard/>
+      <DonateCard/> 
     </div>
   )
 }

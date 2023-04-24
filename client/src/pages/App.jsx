@@ -5,11 +5,12 @@ import Navbar from "../components/Navbar";
 import MainPageCard from "../components/MainPageCard";
 import LocationCard from "../components/LocationCard";
 import Carousel from "../components/Carousel";
+import { styles } from "../styles";
 
 function App() {
   return (
     // main wrapper
-    <div className="">
+    <div className={`${styles.bgImage}`}>
       {/* navbar */}
       <Navbar/>
       <Carousel/>
