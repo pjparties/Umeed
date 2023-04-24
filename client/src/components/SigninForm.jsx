@@ -38,7 +38,7 @@ const SigninForm = () => {
   }
   return (
 
-    < div className='h-4/6 w-1/4 mx-auto mt-10 rounded-2xl p-3 bg-white min-w-[334px] max-w-[432px]  min-h-[600px]' >
+    < div className='max-h-[600px] w-1/4 mx-auto mt-10 rounded-2xl p-3 bg-white min-w-[334px] max-w-[432px]  min-h-[570px]' >
       {console.log("User", user)}
       <div className='title'>
         <h1 className='text-4xl text-lightblack text-center mt-6 pb-1'>Sign in</h1>
