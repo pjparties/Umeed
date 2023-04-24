@@ -1,9 +1,26 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import RahiLogo from '../assets/RahiLogo.png'
 import Donate from '../assets/Donate.png'
 import Volunteer from '../assets/Volunteer.png'
 import SaveRed from '../assets/SaveRed.png'
+import { useDispatch, useSelector } from "react-redux";
+import { setPosts } from "../state";
+
 const MainPageCard = () => {
+  const dispatch = useDispatch();
+  const posts = useSelector((state) => state.posts);
+  const token = useSelector((state) => state.token);
+
+  const getPosts = async () => {
+    const response = await fetch("http://localhost:3001/posts", {
+      method: "GET",
+      headers: { Authorization: `Bearer ${token}` },
+    });
+    const data = await response.json();
+
+    dispatch(setPosts({ posts: data }));
+  };
+
   return (
     <div class="w-[80vw] scale-110 my-9 mx-auto bg-[#D9D9D9] shadow-sm rounded-lg">
       <div class="px-4 py-5">
@@ -16,7 +33,7 @@ const MainPageCard = () => {
             {/* <!-- Card header --> */}
             <div class="w-full sm:flex justify-between items-center">
               {/* <!-- Title --> */}
-              <h2 class="text-xl leading-snug text-darkblue truncate mb-1 sm:mb-0">Raahi Foundation</h2>
+              <h2 class="text-xl leading-snug text-darkblue truncate mb-1 sm:mb-0">`${posts.name}`</h2>
             </div>
             {/* <!-- Card body --> */}
             <div class="flex items-end justify-between whitespace-normal">

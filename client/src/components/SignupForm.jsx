@@ -35,7 +35,7 @@ const SignupForm = () => {
         }
 
     }
-    
+
     return (
         <div className='bg-white border-black border-solid border-2 rounded-2xl w-4/12 h-4/5 my-auto mr-32 drop-shadow-2xl flex
         flex-col  '>
@@ -47,21 +47,21 @@ const SignupForm = () => {
             <div className='form mx-auto mt-2 mb-3 w-7/12'>
                 <form>
                     <div className='name py-4 -mb-2'>
-                        <input className='w-full rounded-lg py-2 border-gray-400 border-[0.1px] placeholder:font-light placeholder:text-sm placeholder:px-4' type="text" placeholder='Enter full name' name="name" value={user.name} id="name" onChange={ handleChange }/>
+                        <input className='w-full rounded-lg py-2 border-gray-400 border-[0.1px] placeholder:font-light placeholder:text-sm placeholder:px-4' type="text" placeholder='Enter full name' name="name" value={user.name} id="name" onChange={handleChange} />
                     </div>
                     <div className='email py-4 my-3'>
-                        <input className='w-full rounded-lg py-2 border-gray-400 border-[0.1px] placeholder:font-light placeholder:text-sm placeholder:px-4' type="email" placeholder='Enter Username or Email' name="email" id="email" value={user.email} onChange={ handleChange } />
+                        <input className='w-full rounded-lg py-2 border-gray-400 border-[0.1px] placeholder:font-light placeholder:text-sm placeholder:px-4' type="email" placeholder='Enter Username or Email' name="email" id="email" value={user.email} onChange={handleChange} />
                     </div>
                     <div classname='password py-4 my-3'>
-                        <input className='w-full rounded-lg py-2 border-gray-400 border-[0.1px] placeholder:font-light placeholder:text-sm placeholder:px-2' value={user.password} type="password" placeholder='Password' name="password" id="password" onChange={ handleChange } />
+                        <input className='w-full rounded-lg py-2 border-gray-400 border-[0.1px] placeholder:font-light placeholder:text-sm placeholder:px-2' value={user.password} type="password" placeholder='Password' name="password" id="password" onChange={handleChange} />
                     </div>
                     <div className='location py-4 my-3'>
-                        <input className='rounded-lg w-full py-2 border-gray-400 border-[0.1px] placeholder:font-light placeholder:text-sm placeholder:px-4' type="text" placeholder='Enter your address' name="location" id="location" value={user.location} onChange={ handleChange }/>
+                        <input className='rounded-lg w-full py-2 border-gray-400 border-[0.1px] placeholder:font-light placeholder:text-sm placeholder:px-4' type="text" placeholder='Enter your address' name="location" id="location" value={user.location} onChange={handleChange} />
                     </div>
                 </form>
             </div>
             <div className='login-button w-fit mx-auto'>
-                <button onClick={()=>{register(); }} className='bg-secondarybg text-white font-bold py-2 px-[75px] rounded-2xl'><Link className='font-thin text-sm justify-center'>Register</Link></button>
+                <button onClick={() => { register(); }} className='bg-secondarybg text-white font-bold py-2 px-[75px] rounded-2xl'><Link className='font-thin text-sm justify-center'>Register</Link></button>
             </div>
             <p className='text-center text-xs pt-2'>Or</p>
             <div className="google-apple flex flex-row gap-10 justify-center items-end">

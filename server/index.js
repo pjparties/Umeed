@@ -10,6 +10,9 @@ import morgan from 'morgan';
 import { fileURLToPath } from 'url';
 import {register} from "./controllers/auth.js"
 import authRoutes from "./routes/auth.js"
+import postRoutes from "./routes/posts.js";
+import {posts } from "./data/index.js";
+import Post from "./models/Post.js";
 
 // configurations
 const __filename = fileURLToPath(import.meta.url);
@@ -41,6 +44,7 @@ app.post("/auth/register",upload.single('picture'),register);
 
 // routes
 app.use("/auth",authRoutes);
+app.use("/posts", postRoutes);
 
 // mongoose
 const PORT = process.env.PORT || 6001;
@@ -50,5 +54,6 @@ mongoose.connect(process.env.MONGO_URL, {
 
 }).then(() => {
     app.listen(PORT, () => console.log(`Server running on port: ${PORT}`));
+    // Post.insertMany(posts);
 })
 .catch((error) => console.log(`${error} did not connect`));
