@@ -31,8 +31,8 @@ const Carousel = () => {
         <div className="w-full">
             <AliceCarousel
                 items={items.map((item) => (
-                    <div key={item.id}>
-                        <img className=" w-[80vw] h-[60vh] mx-auto rounded-2xl mt-6" src={item.imageUrl} alt={item.title} />
+                    <div key={item.id} className='dropShadow-2xl '>
+                        <img className=" w-[80vw] h-[60vh] object-cover mx-auto rounded-2xl mt-6" src={item.imageUrl} alt={item.title} />
                     </div>
                 ))}
                 activeIndex={currentIndex}
