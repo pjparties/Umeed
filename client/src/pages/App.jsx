@@ -17,8 +17,7 @@ function App() {
   }
   return (
     // main wrapper
-    <div>
-    {/* <div className={`${styles.bgImage}`}> */}
+    <div className={''}>
       {/* navbar */}
       <Navbar/>
       <Carousel/>
