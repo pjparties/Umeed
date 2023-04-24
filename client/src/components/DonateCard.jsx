@@ -13,7 +13,7 @@ const DonateCard = () => {
       </div>
       <div className="donation bg-background border-black border-solid border-2 rounded-2xl w-4/12 h-4/5 my-auto flex mr-32 drop-shadow-2xl flex-col">
         <span className="flex flex-row">
-          <div className="search my-auto ml-[2rem]">
+          <div className="search my-auto w-[35vw] ml-[2rem]">
             <form class="flex items-center mx-5 my-5 w-full">
               <label for="simple-search" class="sr-only">Search</label>
               <div class=" relative w-full rounded-lg">
@@ -24,7 +24,7 @@ const DonateCard = () => {
               </div>
             </form>
           </div>
-          <img src={Plus} alt="add" className="aspect-square h-4/6 my-auto ml-[3rem] hover:cursor-pointer" />
+          <img src={Plus} alt="add" className="aspect-square max-h-3/6 my-auto ml-[3rem] mr-[3rem] hover:cursor-pointer" />
         </span>
 
         <div className="max-w-2xl px-8 py-2 bg-white rounded-3xl shadow-md my-3 mx-6 ">
@@ -84,8 +84,8 @@ const DonateCard = () => {
             <p className="mt-2 text-gray-600 dark:text-gray-300">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora expedita d</p>
           </div>
         </div>
-        <input type="text" className='bg-donate2 w-10/12 rounded-md py-4 mx-auto px-4 my-5' placeholder='Address' />
-        <button className='w-10/12 bg-secondarybg rounded-md mx-auto py-2 my-4 '>
+        <input type="text" className='bg-donate2 w-10/12 rounded-md py-2 mx-auto px-4 my-2' placeholder='Address' />
+        <button className='w-10/12 bg-secondarybg rounded-md mx-auto py-2 my-2 '>
           <h1 className='text-white font-extrabold'>Donate</h1>
         </button>
       </div>
