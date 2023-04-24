@@ -27,7 +27,7 @@ const SignupForm = () => {
         if (name && email && password && location) {
             axios.post("http://localhost:3001/auth/register", user)
                 .then(res => {
-                    alert(res.data.message)
+                    alert('Welcome')
                     navigate('/signIn')
                 })
         } else {
