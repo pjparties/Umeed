@@ -3,9 +3,12 @@ import { Link, useNavigate } from 'react-router-dom'
 import Google from '../assets/Google.png'
 import Apple from '../assets/Apple.png'
 import axios from 'axios'
+import { useDispatch } from "react-redux";
+import { setLogin } from "../state";
 
 const SigninForm = () => {
   const navigate = useNavigate();
+  const dispatch = useDispatch();
   const [user, setUser] = useState({
     email: "",
     password: "",
@@ -23,6 +26,12 @@ const SigninForm = () => {
     axios.post("http://localhost:3001/auth/login", user)
         .then(res => {
             alert(res.data.message)
+            dispatch(
+              setLogin({
+                user: res.user,
+                token: res.token,
+              })
+            );
             navigate('/')
         })
   }

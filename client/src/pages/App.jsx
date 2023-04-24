@@ -4,6 +4,7 @@ import Navbar from "../components/Navbar";
 // import LocationCard from "../components/LocationCard";
 import MainPageCard from "../components/MainPageCard";
 import LocationCard from "../components/LocationCard";
+import Carousel from "../components/Carousel";
 
 function App() {
   return (
@@ -11,6 +12,9 @@ function App() {
     <div className="">
       {/* navbar */}
       <Navbar/>
+      <Carousel/>
+      <MainPageCard/>
+      <MainPageCard/>
       <MainPageCard/>
       <MainPageCard/>
       <LocationCard/>

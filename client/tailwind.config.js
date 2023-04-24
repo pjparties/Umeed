@@ -21,6 +21,9 @@ module.exports = {
         unchecked:'#FFE6EB',
         checked: '#FFf8f8',
         search:'#F6F6F6',
+      },
+      dropShadow:{
+        '7xl':'-1px 4px 20px -6px rgba(0,0,0,0.75)',
       }
     },
   },
