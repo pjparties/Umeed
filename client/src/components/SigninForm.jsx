@@ -47,10 +47,10 @@ const SigninForm = () => {
       <div className='form w-fit mx-auto mt-2 mb-3'>
         <form>
           <div className='email py-3 my-3 w-1'>
-            <input className='rounded-lg border-gray-400 border-[0.1px] py-2 placeholder:font-light placeholder:text-sm placeholder:px-2' type="email" value={user.email} placeholder='Enter Username or Email' name="email" id="email" onChange={handleChange} />
+            <input className='rounded-lg border-gray-400 border-[0.1px] py-2 placeholder:font-light placeholder:text-sm placeholder:px-2 pl-1' type="email" value={user.email} placeholder='Enter Username or Email' name="email" id="email" onChange={handleChange} />
           </div>
           <div classname='password my-3 '>
-            <input className='rounded-lg border-gray-400 border-[0.1px] py-2 placeholder:font-light placeholder:text-sm placeholder:px-2' type="password" value={user.password} placeholder='Password' name="password" id="password" onChange={handleChange} />
+            <input className='rounded-lg border-gray-400 border-[0.1px] py-2 placeholder:font-light placeholder:text-sm placeholder:px-2 pl-1' type="password" value={user.password} placeholder='Password' name="password" id="password" onChange={handleChange} />
           </div>
         </form>
         <Link className='pt-2 font-normal text-xs  w-fit mx-0.5 my-2'>Forgot Password?</Link>

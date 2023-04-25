@@ -24,10 +24,10 @@ const Navbar = () => {
         </div>
         <div id='login/signin' className='flex-row mr-5'>
           <Link to={'/signIn'}>
-            <button className='bg-secondarybg text-white font-bold py-2 px-6 rounded-full mr-2'><span className='font-thin text-sm justify-center'>Login</span></button>
+            <button className='transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-getinTouch3 duration-300 bg-secondarybg text-white font-bold py-2 px-6 rounded-full mr-2'><span className='font-thin text-sm justify-center'>Login</span></button>
           </Link>
           <Link to={'/signUp'}>
-            <button className='bg-primarytwo text-white font-bold py-2 px-5 rounded-full'><span className='font-medium text-sm text-secondarybg'>Sign Up</span></button>
+            <button className='transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-white duration-300 bg-primarytwo text-white font-bold py-2 px-5 rounded-full'><span className='font-medium text-sm text-secondarybg'>Sign Up</span></button>
           </Link>
         </div>
       </div>

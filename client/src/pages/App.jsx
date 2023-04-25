@@ -15,9 +15,11 @@ function App() {
   const toggleComponent = () => {
     setIsOpen(!isOpen);
   }
+  const [isButtonClicked, setIsButtonClicked] = useState(false);
+  
   return (
     // main wrapper
-    <div className={''}>
+    <div className={isButtonClicked ? "blur-sm" : ""}>
       {/* navbar */}
       <Navbar/>
       <Carousel/>
@@ -26,8 +28,9 @@ function App() {
       <MainPageCard/>
       <MainPageCard/>
       <div className="fixed bottom-10 right-10 opacity-90">
-        <img onClick={toggleComponent} src={msgicon} alt="msgicon" className='' />
-        {/* {isOpen && <CallChatCard />} */}
+
+        <img onClick={()=>{toggleComponent(); setIsButtonClicked(!isButtonClicked);}} src={msgicon} alt="msgicon" className='fixed bottom-10 right-10 opacity-90' />
+        {isOpen && <CallChatCard />}
       </div>
       {/* <LocationCard/> */}
       {/* <h1 className="">Main App</h1> */}

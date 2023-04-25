@@ -15,7 +15,7 @@ module.exports = {
         linkcolor : '#288CE9',
         getinTouch : '#FFF2F5',
         getinTouch2 : '#DD5471',
-        getinTouch3 : '#DD5471',
+        getinTouch3 : '#FF6685',
         background : '#FFEFF2',
         donate2:'#E8E8E8',
         unchecked:'#FFE6EB',
