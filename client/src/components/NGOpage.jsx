@@ -24,7 +24,7 @@ const NGOpage = () => {
                     {/* <!-- Card body --> */}
                     <div class="flex items-end justify-start whitespace-normal">
                         {/* <!-- Paragraph --> */}
-                        
+                            
                     </div>
                     </div>
 
