@@ -5,7 +5,7 @@ import List from './List'
 
 const CallChatCard = () => {
   return (
-    <div className='bg-navbg w-4/12 h-2/5 rounded-3xl mx-auto my-20'>
+    <div className='bg-navbg w-200px h-2/5 rounded-3xl mx-auto my-20'>
       <div className='toggle component text-center p-3'>
         <ToggleCall />
       </div>
