@@ -9,17 +9,17 @@ const Navbar = () => {
   return (
     <nav>
       <div className="nav-wrapper h-16 bg-navbg fixed-top items-center flex flex-row">
-        <Link to={'/'} className='flex'>
+        <Link to={'/'} className='transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-navbg duration-300 flex'>
           <img className='ml-14 h-14 w-16 py-0.5 my-auto object-contain cursor-pointer' src={umeedlogo} alt="umeed-logo" />
           <img className='ml-2 h-[58px] w-[66px] my-auto object-contain cursor-pointer' src={umeedtext} alt="umeed-logo" />
         </Link>
         <div className="flex relative ml-auto mr-12">
           <Link to={'/donate'}>
-            <img className=' ml-1 h-[28px] w-[40px] my-auto object-contain cursor-pointer -translate-y-0.5' src={BagIcon} alt="donate" />
+            <img className='transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-navbg duration-300 ml-1 h-[28px] w-[40px] my-auto object-contain cursor-pointer -translate-y-0.5' src={BagIcon} alt="donate" />
           </Link>
-          <img className=' ml-4 h-[30px] w-[29px] my-auto object-contain cursor-pointer' src={InboxIcon} alt="notif-overlay" />
+          <img className='transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-navbg duration-300 ml-4 h-[30px] w-[29px] my-auto object-contain cursor-pointer' src={InboxIcon} alt="notif-overlay" />
           <Link to={'/location'}>
-            <img className=' ml-5 h-[28px] w-[28px] my-auto object-contain cursor-pointer' src={LocationIcon} alt="location" />
+            <img className='transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-navbg duration-300 ml-5 h-[28px] w-[28px] my-auto object-contain cursor-pointer' src={LocationIcon} alt="location" />
           </Link>
         </div>
         <div id='login/signin' className='flex-row mr-5'>

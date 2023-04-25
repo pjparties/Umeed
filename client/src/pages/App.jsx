@@ -29,7 +29,7 @@ function App() {
       <MainPageCard/>
       <div className="fixed bottom-10 right-10 opacity-90">
 
-        <img onClick={()=>{toggleComponent(); setIsButtonClicked(!isButtonClicked);}} src={msgicon} alt="msgicon" className='fixed bottom-10 right-10 opacity-90' />
+        <img onClick={()=>{toggleComponent(); setIsButtonClicked(!isButtonClicked);}} src={msgicon} alt="msgicon" className='fixed bottom-10 right-10 ' />
         {isOpen && <CallChatCard />}
       </div>
       {/* <LocationCard/> */}
